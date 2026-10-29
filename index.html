@@ -27,12 +27,12 @@
 <body>
 <main>
 <header><div class="logo" aria-hidden="true"></div><h1>SkyHop</h1></header>
-<p class="meta">Son güncelleme / Last updated: 28.10.2026</p>
+<p class="meta">Son güncelleme / Last updated: 29.10.2026</p>
 <nav><a href="#tr">Türkçe</a><a href="#en">English</a><a href="terms.html">Kullanım Koşulları / Terms (EULA)</a><a href="support.html">Destek / Support</a></nav>
 
 <section id="tr" lang="tr">
 <h2>Gizlilik Politikası</h2>
-<p>Bu politika, iOS oyunu <strong>SkyHop</strong>'un ("Oyun") hangi bilgileri nasıl işlediğini açıklar.
+<p>Bu politika, iOS ve Android oyunu <strong>SkyHop</strong>'un ("Oyun") hangi bilgileri nasıl işlediğini açıklar.
 Oyun hesap açmanızı istemez; adınızı, e-posta adresinizi veya konumunuzu toplamayız.</p>
 
 <h3>Cihazınızda saklanan bilgiler</h3>
@@ -44,13 +44,17 @@ yalnızca cihazınızda saklanır. Bu bilgiler bize gönderilmez; Oyunu sildiği
 Sıralamada Game Center takma adınız ve, ülke bayrağını gösterebilmek için, cihazınızın bölge ayarındaki iki harfli
 ülke kodu (ör. "TR") görünür. Bu veriler Apple tarafından <a href="https://www.apple.com/legal/privacy/">Apple Gizlilik Politikası</a>'na göre işlenir.</p>
 
+<h3>Google Play Games (Android)</h3>
+<p>Android'de Google Play Games'te oturum açtıysanız Play Games oyuncu adınız sıralamada görünür ve skorunuz yeni cihazlarda da korunur.
+Bu veriler Google tarafından <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>'na göre işlenir.</p>
+
 <h3>Dünya sıralaması (Google Firebase)</h3>
 <p>Dünya sıralamasını sağlamak için Google Firebase kullanılır:</p>
 <ul>
   <li><strong>Firebase Authentication:</strong> Oyun ilk açıldığında sizin için anonim, rastgele bir kullanıcı kimliği oluşturulur.
-      Game Center'da oturum açtıysanız bu kimlik Game Center oyuncu kimliğinizle eşleştirilir; böylece skorunuz yeni cihazlarda da korunur.</li>
-  <li><strong>Cloud Firestore:</strong> Sıralama kaydınızda şunlar saklanır: görünen adınız (Game Center takma adınız ya da "Oyuncu XXXX"),
-      iki harfli ülke kodu, platform (iOS), en iyi ve haftalık en iyi mesafeniz ve son güncelleme zamanı.
+      Game Center'da (iOS) ya da Google Play Games'te (Android) oturum açtıysanız bu kimlik oyuncu kimliğinizle eşleştirilir; böylece skorunuz yeni cihazlarda da korunur.</li>
+  <li><strong>Cloud Firestore:</strong> Sıralama kaydınızda şunlar saklanır: görünen adınız (Game Center ya da Play Games adınız veya "Oyuncu XXXX"),
+      iki harfli ülke kodu, platform (iOS ya da Android), en iyi ve haftalık en iyi mesafeniz ve son güncelleme zamanı.
       Bu kayıt sıralamada tüm oyunculara görünür. Veriler Google'ın Avrupa'daki sunucularında tutulur.</li>
 </ul>
 <p>Bu veriler yalnızca sıralamayı göstermek için kullanılır; satılmaz ve reklam için kullanılmaz. Sıralama kaydınızın silinmesini
@@ -58,17 +62,18 @@ aşağıdaki e-posta adresinden isteyebilirsiniz. Ayrıntılar: <a href="https:/
 
 <h3>Reklamlar (Google AdMob)</h3>
 <p>Oyun, ücretsiz kalabilmek için Google AdMob aracılığıyla reklam gösterir. AdMob reklam sunmak, ölçmek ve
-dolandırıcılığı önlemek için cihaz bilgileri, IP adresi, reklam etkileşimleri ve izin verirseniz reklam kimliği (IDFA)
-gibi verileri işleyebilir.</p>
+dolandırıcılığı önlemek için cihaz bilgileri, IP adresi, reklam etkileşimleri ve izin verirseniz reklam kimliği (iOS'ta IDFA, Android'de
+reklam kimliği) gibi verileri işleyebilir.</p>
 <ul>
   <li>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de Google'ın izin formu, kişiselleştirilmiş reklamlar için onayınızı ister.
       Seçiminizi Oyunda <em>Ayarlar › Gizlilik seçenekleri</em>'nden değiştirebilirsiniz.</li>
-  <li>Apple'ın "Uygulama Takip Şeffaflığı" izni sorulur. İzin vermezseniz reklam kimliğiniz paylaşılmaz; reklamlar kişiselleştirilmeden gösterilir.</li>
+  <li>iOS'ta Apple'ın "Uygulama Takip Şeffaflığı" izni sorulur. İzin vermezseniz reklam kimliğiniz paylaşılmaz; reklamlar kişiselleştirilmeden gösterilir.</li>
+  <li>Android'de reklam kimliğinizi cihazın <em>Ayarlar › Gizlilik › Reklamlar</em> bölümünden sıfırlayabilir veya silebilirsiniz.</li>
 </ul>
 <p>Ayrıntılar: <a href="https://policies.google.com/technologies/partner-sites">Google'ın, iş ortaklarının sitelerini ve uygulamalarını kullanmanız durumunda verilerinizi nasıl kullandığı</a>.</p>
 
 <h3>Uygulama içi satın alım</h3>
-<p>"Reklamları Kaldır" ve "Efsane Paketi" satın alımları tamamen Apple App Store üzerinden yapılır. Ödeme bilgilerinizi görmeyiz.
+<p>"Reklamları Kaldır", "Efsane Paketi" ve coin paketleri satın alımları tamamen Apple App Store (iOS) ya da Google Play (Android) üzerinden yapılır. Ödeme bilgilerinizi görmeyiz.
 Satın alımlarınızı Oyunda <em>Ayarlar › Satın alımları geri yükle</em> ile başka cihazlara aktarabilirsiniz.</p>
 
 <h3>Çocuklar</h3>
@@ -76,7 +81,7 @@ Satın alımlarınızı Oyunda <em>Ayarlar › Satın alımları geri yükle</em
 
 <h3>Haklarınız ve iletişim</h3>
 <p>Cihazınızdaki verileri Oyunu silerek kaldırabilirsiniz. Sıralama kaydınızın silinmesi veya verilerinizle ilgili sorularınız için
-<a href="mailto:hsnrtn51@gmail.com">hsnrtn51@gmail.com</a> adresine yazabilirsiniz. Game Center ve Google reklam verileriyle ilgili haklarınızı
+<a href="mailto:hsnrtn51@gmail.com">hsnrtn51@gmail.com</a> adresine yazabilirsiniz. Game Center, Google Play Games ve Google reklam verileriyle ilgili haklarınızı
 ilgili şirketlerin gizlilik sayfalarından da kullanabilirsiniz.</p>
 
 <h3>Değişiklikler</h3>
@@ -85,7 +90,7 @@ ilgili şirketlerin gizlilik sayfalarından da kullanabilirsiniz.</p>
 
 <section id="en" lang="en">
 <h2>Privacy Policy</h2>
-<p>This policy explains what information the iOS game <strong>SkyHop</strong> (the "Game") processes and how.
+<p>This policy explains what information the iOS and Android game <strong>SkyHop</strong> (the "Game") processes and how.
 The Game doesn't ask you to create an account, and we don't collect your name, email address or location.</p>
 
 <h3>Information stored on your device</h3>
@@ -97,13 +102,17 @@ They are not sent to us and are removed when you delete the Game.</p>
 The leaderboard shows your Game Center nickname and, to display a country flag, the two-letter country code from your
 device's region setting (e.g. "TR"). Apple processes this data under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</p>
 
+<h3>Google Play Games (Android)</h3>
+<p>On Android, if you are signed in to Google Play Games, your Play Games player name appears on the leaderboard and your score follows
+you to new devices. Google processes this data under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
 <h3>Global leaderboard (Google Firebase)</h3>
 <p>The global leaderboard is powered by Google Firebase:</p>
 <ul>
   <li><strong>Firebase Authentication:</strong> when the Game first starts, an anonymous, random user ID is created for you.
-      If you are signed in to Game Center, it is linked to your Game Center player ID so your score follows you to new devices.</li>
-  <li><strong>Cloud Firestore:</strong> your leaderboard entry stores your display name (your Game Center nickname or "Player XXXX"),
-      two-letter country code, platform (iOS), best and weekly best distance, and the time of the last update.
+      If you are signed in to Game Center (iOS) or Google Play Games (Android), it is linked to your player ID so your score follows you to new devices.</li>
+  <li><strong>Cloud Firestore:</strong> your leaderboard entry stores your display name (your Game Center or Play Games name, or "Player XXXX"),
+      two-letter country code, platform (iOS or Android), best and weekly best distance, and the time of the last update.
       This entry is visible to all players on the leaderboard. The data is kept on Google's servers in Europe.</li>
 </ul>
 <p>This data is used only to show the leaderboard; it is not sold or used for advertising. You can ask for your leaderboard entry
@@ -111,16 +120,17 @@ to be deleted at the email address below. Details: <a href="https://firebase.goo
 
 <h3>Advertising (Google AdMob)</h3>
 <p>To stay free, the Game shows ads through Google AdMob. AdMob may process device information, IP address, ad interactions
-and, if you allow it, your advertising identifier (IDFA) to serve and measure ads and to prevent fraud.</p>
+and, if you allow it, your advertising identifier (IDFA on iOS, advertising ID on Android) to serve and measure ads and to prevent fraud.</p>
 <ul>
   <li>In the European Economic Area, the UK and Switzerland, Google's consent form asks for your consent to personalised ads.
       You can change your choice in the Game under <em>Settings › Privacy options</em>.</li>
-  <li>Apple's App Tracking Transparency prompt is shown. If you decline, your advertising identifier is not shared and ads are not personalised.</li>
+  <li>On iOS, Apple's App Tracking Transparency prompt is shown. If you decline, your advertising identifier is not shared and ads are not personalised.</li>
+  <li>On Android, you can reset or delete your advertising ID in the device's <em>Settings › Privacy › Ads</em>.</li>
 </ul>
 <p>Details: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
 
 <h3>In-app purchases</h3>
-<p>The "Remove Ads" and "Legend Pack" purchases are handled entirely by the Apple App Store. We never see your payment details.
+<p>The "Remove Ads", "Legend Pack" and coin pack purchases are handled entirely by the Apple App Store (iOS) or Google Play (Android). We never see your payment details.
 You can bring your purchases to other devices with <em>Settings › Restore purchases</em> in the Game.</p>
 
 <h3>Children</h3>
@@ -128,7 +138,7 @@ You can bring your purchases to other devices with <em>Settings › Restore purc
 
 <h3>Your rights and contact</h3>
 <p>You can remove the data on your device by deleting the Game. To have your leaderboard entry deleted, or for any question about
-your data, email <a href="mailto:hsnrtn51@gmail.com">hsnrtn51@gmail.com</a>. For Game Center and Google advertising data you can also
+your data, email <a href="mailto:hsnrtn51@gmail.com">hsnrtn51@gmail.com</a>. For Game Center, Google Play Games and Google advertising data you can also
 use those companies' privacy pages.</p>
 
 <h3>Changes</h3>
